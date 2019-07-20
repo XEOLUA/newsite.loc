@@ -19,7 +19,7 @@ class CheckIfAdmin
         if (Auth::check() && Auth::user()->userInfo()->is_admin()) {
             return $next($request);
         }
-
+//ssdsad
         return redirect('admin/login');
     }
 }
