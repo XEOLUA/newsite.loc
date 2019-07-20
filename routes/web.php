@@ -16,6 +16,7 @@
 });*/
 
 Route::get('/', 'IndexController@index');
+
 Route::get('/home', 'IndexController@index')->name('home');
 
 Route::get('page/{id}', 'IndexController@show')->name('showPage');
