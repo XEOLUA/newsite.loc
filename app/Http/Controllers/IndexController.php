@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Page;
 use App\Topmenu;
+
 
 class IndexController extends Controller
 {
