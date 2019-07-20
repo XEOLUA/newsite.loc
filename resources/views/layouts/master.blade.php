@@ -2,7 +2,7 @@
 @section('title')
 
 @section('content')
-{{--    v 1.1   --}}
+{{--    v 1.2   --}}
         @if(isset($page))
             {{$pages->firstWhere('page_id',$page->page_id )->page_text}}
         @else
